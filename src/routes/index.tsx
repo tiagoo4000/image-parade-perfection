@@ -61,7 +61,7 @@ function Index() {
             Mais facilidade para fazer negócios, conteúdos mais personalizados para apoiar as suas decisões no dia a dia, mais agilidade na troca de informações e mais parceria para te ajudar a alcançar as metas mais desafiadoras.
           </p>
           <p className="mt-4 font-semibold text-slate-900">
-            Construmais é o novo parceiro do seu negócio.
+            Gerdau Mais é o novo parceiro do seu negócio.
           </p>
           <button className="mt-8 inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-7 py-3.5 rounded-full font-medium">
             <ShoppingCart className="w-4 h-4" /> Faça sua cotação
