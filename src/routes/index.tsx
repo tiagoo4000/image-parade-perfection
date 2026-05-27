@@ -5,6 +5,9 @@ import product1 from "@/assets/product-1.jpg";
 import product2 from "@/assets/product-2.jpg";
 import product3 from "@/assets/product-3.jpg";
 
+const WHATSAPP_NUMBER = "553128880288";
+const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o.`;
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
