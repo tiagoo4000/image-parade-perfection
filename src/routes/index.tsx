@@ -47,9 +47,14 @@ function Index() {
             <button className="flex items-center gap-2 text-blue-600 hover:underline text-[15px] font-medium">
               <User className="w-4 h-4" /> Área do cliente
             </button>
-            <button className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-[15px] font-medium">
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-[15px] font-medium"
+            >
               <ShoppingCart className="w-4 h-4" /> Faça sua cotação
-            </button>
+            </a>
           </div>
         </nav>
       </header>
@@ -66,9 +71,14 @@ function Index() {
           <p className="mt-4 font-semibold text-slate-900">
             Gerdau Mais é o novo parceiro do seu negócio.
           </p>
-          <button className="mt-8 inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-7 py-3.5 rounded-full font-medium">
+          <a
+            href={WHATSAPP_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-7 py-3.5 rounded-full font-medium"
+          >
             <ShoppingCart className="w-4 h-4" /> Faça sua cotação
-          </button>
+          </a>
         </div>
 
         {/* Carousel */}
@@ -122,15 +132,23 @@ function Index() {
       </section>
 
       {/* Floating buttons */}
-      <button className="fixed bottom-20 right-8 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3.5 rounded-full font-medium shadow-lg">
+      <a
+        href={WHATSAPP_LINK}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-20 right-8 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3.5 rounded-full font-medium shadow-lg"
+      >
         Solicite seu Orçamento
-      </button>
-      <button
-        aria-label="Chat"
+      </a>
+      <a
+        href={WHATSAPP_LINK}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat no WhatsApp"
         className="fixed bottom-6 right-8 w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-lg"
       >
         <MessageCircle className="w-6 h-6" />
-      </button>
+      </a>
     </div>
   );
 }
